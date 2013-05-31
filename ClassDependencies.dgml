@@ -1,0 +1,748 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@1 @14 @15 Member=Dispose)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="Dispose" />
+    <Node Id="(@1 @2 @34 Member=SendMessage)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="SendMessage" />
+    <Node Id="(@1 @2 @36 Member=CreateServer)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="CreateServer" />
+    <Node Id="(@1 @2 Type=(Name=IView GenericParameterCount=1) Member=get_Presenter)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Presenter" />
+    <Node Id="(@1 @23 @24 Member=get_NickName)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_NickName" />
+    <Node Id="(@1 @38 @39 Member=.cctor)" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" CodeSchemaProperty_IsSpecialName="True" Label="static Mailslot" />
+    <Node Id="(@1 @4 @21 @61)" Category="CodeSchema_Method" CodeSchemaProperty_IsProtected="True" Label="Dispose" />
+    <Node Id="(@1 @4 @26 @61)" Category="CodeSchema_Method" CodeSchemaProperty_IsProtected="True" Label="Dispose" />
+    <Node Id="(@1 @4 @30 Member=(Name=BeginInvoke OverloadingParameters=[@92,@29,(@57 @58 Type=AsyncCallback),@92]))" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="BeginInvoke" />
+    <Node Id="(@1 @4 @30 Member=(Name=EndInvoke OverloadingParameters=[(@57 @58 Type=IAsyncResult)]))" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="EndInvoke" />
+    <Node Id="(@1 @4 @32 @61)" Category="CodeSchema_Method" CodeSchemaProperty_IsProtected="True" Label="Dispose" />
+    <Node Id="(@1 @4 @5 Member=(Name=BeginInvoke OverloadingParameters=[@81,(@57 @58 Type=AsyncCallback),@92]))" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="BeginInvoke" />
+    <Node Id="(@1 @4 @5 Member=(Name=EndInvoke OverloadingParameters=[(@57 @58 Type=IAsyncResult)]))" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="EndInvoke" />
+    <Node Id="(@1 @4 @5 Member=(Name=Invoke @82))" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="Invoke" />
+    <Node Id="(@1 @4 @52 @61)" Category="CodeSchema_Method" CodeSchemaProperty_IsProtected="True" Label="Dispose" />
+    <Node Id="(@1 @41 @46 Member=(Name=BeginInvoke OverloadingParameters=[@92,@45,(@57 @58 Type=AsyncCallback),@92]))" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="BeginInvoke" />
+    <Node Id="(@1 @41 @46 Member=(Name=EndInvoke OverloadingParameters=[(@57 @58 Type=IAsyncResult)]))" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="EndInvoke" />
+    <Node Id="(@1 @7 @54 @126)" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="WinFunctions" />
+    <Node Id="@10" Category="CodeSchema_Enum" CodeSchemaProperty_IsInternal="True" Group="Collapsed" Label="WinFunctions.FileCreationDisposition" />
+    <Node Id="@100" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="connectToolStripMenuItem_Click" />
+    <Node Id="@101" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="createButton_Click" />
+    <Node Id="@102" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="createToolStripMenuItem_Click" />
+    <Node Id="@103" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="disconnectToolStripMenuItem_Click" />
+    <Node Id="@104" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="exitToolStripMenuItem_Click" />
+    <Node Id="@105" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="helpButton_Click" />
+    <Node Id="@106" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="okButton_Click" />
+    <Node Id="@107" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="sendButton_Click" />
+    <Node Id="@108" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="shutdownToolStripMenuItem_Click" />
+    <Node Id="@109" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="timer1_Tick" />
+    <Node Id="@11" Category="CodeSchema_Enum" CodeSchemaProperty_IsInternal="True" Group="Collapsed" Label="WinFunctions.FileDesiredAccess" />
+    <Node Id="@110" Category="CodeSchema_Method" CodeSchemaProperty_IsInternal="True" Label="ThrowException" />
+    <Node Id="@111" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="SetTextCallback" />
+    <Node Id="@112" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="ConnectionEventHandler" />
+    <Node Id="@113" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="MessageEventHandler" />
+    <Node Id="@114" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="Invoke" />
+    <Node Id="@115" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="ShowMessage" />
+    <Node Id="@116" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="Message" />
+    <Node Id="@117" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="GetFullMailslotPath" />
+    <Node Id="@118" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="Client" />
+    <Node Id="@119" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="ConnectionEventArgs" />
+    <Node Id="@12" Category="CodeSchema_Enum" CodeSchemaProperty_IsInternal="True" Group="Collapsed" Label="WinFunctions.FileShareMode" />
+    <Node Id="@120" Category="CodeSchema_Method" CodeSchemaProperty_IsInternal="True" Label="CreateMailslot" />
+    <Node Id="@122" Category="CodeSchema_Method" CodeSchemaProperty_IsInternal="True" Label="ReadFile" />
+    <Node Id="@123" Category="CodeSchema_Method" CodeSchemaProperty_IsInternal="True" Label="WriteFile" />
+    <Node Id="@124" Category="CodeSchema_Method" CodeSchemaProperty_IsInternal="True" Label="GetMailslotInfo" />
+    <Node Id="@125" Category="CodeSchema_Method" CodeSchemaProperty_IsInternal="True" Label="CreateFile" />
+    <Node Id="@127" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="AboutDialog" />
+    <Node Id="@128" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="ClientSettings" />
+    <Node Id="@129" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="Form1" />
+    <Node Id="@13" Category="CodeSchema_Struct" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="WinFunctions.MailslotInfo" />
+    <Node Id="@130" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="ServerSettings" />
+    <Node Id="@131" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="CloseMailslot" />
+    <Node Id="@132" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="Connect" />
+    <Node Id="@133" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="CreateServer" />
+    <Node Id="@134" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="CreateServer" />
+    <Node Id="@135" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="Disconnect" />
+    <Node Id="@136" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="Dispose" />
+    <Node Id="@137" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="Dispose" />
+    <Node Id="@138" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Handle" />
+    <Node Id="@139" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_MailslotName" />
+    <Node Id="@140" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_MessageText" />
+    <Node Id="@141" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_MessageText" />
+    <Node Id="@142" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Name" />
+    <Node Id="@143" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Nickname" />
+    <Node Id="@144" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Presenter" />
+    <Node Id="@145" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Sender" />
+    <Node Id="@146" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Sender" />
+    <Node Id="@147" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_ServerName" />
+    <Node Id="@148" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="GetMailslotInfo" />
+    <Node Id="@149" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="GetMailslotName" />
+    <Node Id="@150" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="GetMailslotName" />
+    <Node Id="@151" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="GetNickname" />
+    <Node Id="@152" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="GetNickname" />
+    <Node Id="@153" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="GetServerName" />
+    <Node Id="@154" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="GetServerName" />
+    <Node Id="@155" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="GetServerName" />
+    <Node Id="@157" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="InitializeComponent" />
+    <Node Id="@158" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="InitializeComponent" />
+    <Node Id="@159" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="InitializeComponent" />
+    <Node Id="@16" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="ClientPresenter" />
+    <Node Id="@160" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="InitializeComponent" />
+    <Node Id="@161" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="IsValid" />
+    <Node Id="@162" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" CodeSchemaProperty_IsSpecialName="True" Label="MailChat.View.IView&lt;MailChat.Presenter.ClientPresenter&gt;.get_Presenter" />
+    <Node Id="@163" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="Main" />
+    <Node Id="@164" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="Read" />
+    <Node Id="@165" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="SendMessage" />
+    <Node Id="@166" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="Shutdown" />
+    <Node Id="@167" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="ShutdownServer" />
+    <Node Id="@168" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="Start" />
+    <Node Id="@169" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="ToByte" />
+    <Node Id="@17" Category="CodeSchema_Interface" CodeSchemaProperty_IsGenericInstance="True" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="IView&lt;ClientPresenter&gt;" />
+    <Node Id="@170" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="ValidateSettings" />
+    <Node Id="@19" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="ServerPresenter" />
+    <Node Id="@20" Category="CodeSchema_Interface" CodeSchemaProperty_IsGenericInstance="True" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="IView&lt;ServerPresenter&gt;" />
+    <Node Id="@22" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="AboutDialog" />
+    <Node Id="@25" Category="CodeSchema_Class" CodeSchemaProperty_IsPrivate="True" Group="Collapsed" Label="Client" />
+    <Node Id="@27" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="ClientSettings" />
+    <Node Id="@29" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="ConnectionEventArgs" />
+    <Node Id="@3" Category="CodeSchema_Interface" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="IView&lt;TPresenter&gt;" />
+    <Node Id="@31" Category="CodeSchema_Delegate" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="ConnectionEventHandler" />
+    <Node Id="@33" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="Form1" />
+    <Node Id="@35" Category="CodeSchema_Interface" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="IClientView" />
+    <Node Id="@37" Category="CodeSchema_Interface" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="IServerView" />
+    <Node Id="@40" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="Mailslot" />
+    <Node Id="@43" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="Message" />
+    <Node Id="@45" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="MessageEventArgs" />
+    <Node Id="@47" Category="CodeSchema_Delegate" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="MessageEventHandler" />
+    <Node Id="@48" Category="CodeSchema_Class" CodeSchemaProperty_IsPrivate="True" Group="Collapsed" Label="Program" />
+    <Node Id="@51" Category="CodeSchema_Class" CodeSchemaProperty_IsPrivate="True" Group="Collapsed" Label="Server" />
+    <Node Id="@53" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="ServerSettings" />
+    <Node Id="@55" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="WinFunctions" />
+    <Node Id="@59" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="Message" />
+    <Node Id="@6" Category="CodeSchema_Delegate" CodeSchemaProperty_IsPrivate="True" Group="Collapsed" Label="Form1.SetTextCallback" />
+    <Node Id="@60" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="Send" />
+    <Node Id="@62" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="Read" />
+    <Node Id="@63" Category="CodeSchema_Method" CodeSchemaProperty_IsProtected="True" Label="OnConnect" />
+    <Node Id="@64" Category="CodeSchema_Method" CodeSchemaProperty_IsProtected="True" Label="OnCreate" />
+    <Node Id="@66" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="add_Connect" />
+    <Node Id="@67" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="add_Create" />
+    <Node Id="@68" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="remove_Connect" />
+    <Node Id="@69" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="remove_Create" />
+    <Node Id="@70" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="ClientPresenter" />
+    <Node Id="@72" Category="CodeSchema_Method" CodeSchemaProperty_IsInternal="True" Label="CloseHandle" />
+    <Node Id="@73" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="GetMailslotInfo" />
+    <Node Id="@74" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_Handle" />
+    <Node Id="@75" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="ServerPresenter" />
+    <Node Id="@76" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="MessageEventArgs" />
+    <Node Id="@77" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="FormatMessage" />
+    <Node Id="@78" Category="CodeSchema_Method" CodeSchemaProperty_IsProtected="True" Label="OnMessageReceived" />
+    <Node Id="@79" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="add_MessageReceived" />
+    <Node Id="@80" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="remove_MessageReceived" />
+    <Node Id="@83" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="Mailslot" />
+    <Node Id="@84" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="Server" />
+    <Node Id="@85" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="GetLocalMailslotPath" />
+    <Node Id="@86" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="Send" />
+    <Node Id="@87" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="SendMessage" />
+    <Node Id="@88" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_Name" />
+    <Node Id="@89" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="SetText" />
+    <Node Id="@9" Category="CodeSchema_Enum" CodeSchemaProperty_IsInternal="True" Group="Collapsed" Label="WinFunctions.FileAttributes" />
+    <Node Id="@90" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="ShowMessage" />
+    <Node Id="@91" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="ShowMessage" />
+    <Node Id="@93" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="GetConnectionSettings" />
+    <Node Id="@94" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="Invoke" />
+    <Node Id="@96" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="aboutToolStripMenuItem_Click" />
+    <Node Id="@97" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="button1_Click" />
+    <Node Id="@98" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="button2_Click" />
+    <Node Id="@99" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="cancelButton_Click" />
+    <Node Id="_standardGraphGenericsGroup" Category="Generics" Group="Collapsed" Label="Универсальные" />
+  </Nodes>
+  <Links>
+    <Link Source="@10" Target="@10" Category="References" />
+    <Link Source="@100" Target="@112" Category="CodeSchema_Calls" />
+    <Link Source="@100" Target="@128" Category="CodeSchema_Calls" />
+    <Link Source="@100" Target="@132" Category="CodeSchema_Calls" />
+    <Link Source="@100" Target="@139" Category="CodeSchema_Calls" />
+    <Link Source="@100" Target="@27" Category="References" />
+    <Link Source="@100" Target="@66" Category="CodeSchema_Calls" />
+    <Link Source="@100" Target="@68" Category="CodeSchema_Calls" />
+    <Link Source="@100" Target="@70" Category="CodeSchema_Calls" />
+    <Link Source="@100" Target="@93" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@101" Target="@119" Category="CodeSchema_Calls" />
+    <Link Source="@101" Target="@64" Category="CodeSchema_Calls" />
+    <Link Source="@102" Target="@112" Category="CodeSchema_Calls" />
+    <Link Source="@102" Target="@130" Category="CodeSchema_Calls" />
+    <Link Source="@102" Target="@134" Category="CodeSchema_Calls" />
+    <Link Source="@102" Target="@139" Category="CodeSchema_Calls" />
+    <Link Source="@102" Target="@144" Category="CodeSchema_Calls" />
+    <Link Source="@102" Target="@53" Category="References" />
+    <Link Source="@102" Target="@67" Category="CodeSchema_Calls" />
+    <Link Source="@102" Target="@69" Category="CodeSchema_Calls" />
+    <Link Source="@102" Target="@93" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@103" Target="@135" Category="CodeSchema_Calls" />
+    <Link Source="@103" Target="@139" Category="CodeSchema_Calls" />
+    <Link Source="@107" Target="@165" Category="CodeSchema_Calls" />
+    <Link Source="@107" Target="@87" Category="CodeSchema_Calls" />
+    <Link Source="@108" Target="@139" Category="CodeSchema_Calls" />
+    <Link Source="@108" Target="@144" Category="CodeSchema_Calls" />
+    <Link Source="@108" Target="@167" Category="CodeSchema_Calls" />
+    <Link Source="@11" Target="@11" Category="References" />
+    <Link Source="@115" Target="@77" Category="CodeSchema_Calls" />
+    <Link Source="@115" Target="@91" Category="CodeSchema_Calls" />
+    <Link Source="@118" Target="@117" Category="CodeSchema_Calls" />
+    <Link Source="@118" Target="@83" Category="CodeSchema_Calls" />
+    <Link Source="@12" Target="@12" Category="References" />
+    <Link Source="@127" Target="@157" Category="CodeSchema_Calls" />
+    <Link Source="@128" Target="@158" Category="CodeSchema_Calls" />
+    <Link Source="@129" Target="@159" Category="CodeSchema_Calls" />
+    <Link Source="@130" Target="@160" Category="CodeSchema_Calls" />
+    <Link Source="@131" Target="@110" Category="CodeSchema_Calls" />
+    <Link Source="@131" Target="@161" Category="CodeSchema_Calls" />
+    <Link Source="@131" Target="@72" Category="CodeSchema_Calls" />
+    <Link Source="@132" Target="@118" Category="CodeSchema_Calls" />
+    <Link Source="@132" Target="@150" Category="CodeSchema_Calls" />
+    <Link Source="@132" Target="@152" Category="CodeSchema_Calls" />
+    <Link Source="@132" Target="@154" Category="CodeSchema_Calls" />
+    <Link Source="@133" Target="@134" Category="CodeSchema_Calls" />
+    <Link Source="@133" Target="@144" Category="CodeSchema_Calls" />
+    <Link Source="@134" Target="@113" Category="CodeSchema_Calls" />
+    <Link Source="@134" Target="@115" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@134" Target="@155" Category="CodeSchema_Calls" />
+    <Link Source="@134" Target="@168" Category="CodeSchema_Calls" />
+    <Link Source="@134" Target="@79" Category="CodeSchema_Calls" />
+    <Link Source="@134" Target="@84" Category="CodeSchema_Calls" />
+    <Link Source="@136" Target="@131" Category="CodeSchema_Calls" />
+    <Link Source="@137" Target="@136" Category="CodeSchema_Calls" />
+    <Link Source="@141" Target="@140" Category="CodeSchema_Calls" />
+    <Link Source="@144" Target="@19" Category="References">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@144" Target="@75" Category="CodeSchema_Calls" />
+    <Link Source="@146" Target="@145" Category="CodeSchema_Calls" />
+    <Link Source="@148" Target="@13" Category="CodeSchema_ReturnTypeLink" />
+    <Link Source="@148" Target="@73" Category="CodeSchema_Calls" />
+    <Link Source="@149" Target="@139" Category="CodeSchema_Calls" />
+    <Link Source="@151" Target="@143" Category="CodeSchema_Calls" />
+    <Link Source="@153" Target="@147" Category="CodeSchema_Calls" />
+    <Link Source="@157" Target="@106" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@157" Target="@22" Category="References" />
+    <Link Source="@158" Target="@105" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@158" Target="@27" Category="References" />
+    <Link Source="@158" Target="@97" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@158" Target="@98" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@159" Target="@100" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@159" Target="@102" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@159" Target="@103" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@159" Target="@104" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@159" Target="@107" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@159" Target="@108" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@159" Target="@109" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@159" Target="@33" Category="References" />
+    <Link Source="@159" Target="@96" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@16" Target="(@1 @14 @15 Member=Dispose)" Category="Contains" />
+    <Link Source="@16" Target="@132" Category="Contains" />
+    <Link Source="@16" Target="@135" Category="Contains" />
+    <Link Source="@16" Target="@25" Category="References">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@16" Target="@35" Category="References">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@16" Target="@70" Category="Contains" />
+    <Link Source="@16" Target="@87" Category="Contains" />
+    <Link Source="@160" Target="@101" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@160" Target="@53" Category="References" />
+    <Link Source="@160" Target="@99" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@162" Target="@16" Category="References">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@162" Target="@70" Category="CodeSchema_Calls" />
+    <Link Source="@163" Target="@129" Category="CodeSchema_Calls" />
+    <Link Source="@164" Target="@59" Category="CodeSchema_Calls" />
+    <Link Source="@164" Target="@62" Category="CodeSchema_Calls" />
+    <Link Source="@164" Target="@76" Category="CodeSchema_Calls" />
+    <Link Source="@164" Target="@78" Category="CodeSchema_Calls" />
+    <Link Source="@166" Target="@137" Category="CodeSchema_Calls" />
+    <Link Source="@167" Target="@113" Category="CodeSchema_Calls" />
+    <Link Source="@167" Target="@115" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@167" Target="@166" Category="CodeSchema_Calls" />
+    <Link Source="@167" Target="@80" Category="CodeSchema_Calls" />
+    <Link Source="@168" Target="@164" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@169" Target="@140" Category="CodeSchema_Calls" />
+    <Link Source="@169" Target="@145" Category="CodeSchema_Calls" />
+    <Link Source="@17" Target="@16" Category="CodeSchema_GenericParameterLink" />
+    <Link Source="@17" Target="@3" Category="CodeSchema_GenericTypeUse" />
+    <Link Source="@19" Target="@115" Category="Contains" />
+    <Link Source="@19" Target="@134" Category="Contains" />
+    <Link Source="@19" Target="@167" Category="Contains" />
+    <Link Source="@19" Target="@37" Category="References">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@19" Target="@51" Category="References">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@19" Target="@75" Category="Contains" />
+    <Link Source="@19" Target="@77" Category="Contains" />
+    <Link Source="@20" Target="@19" Category="CodeSchema_GenericParameterLink" />
+    <Link Source="@20" Target="@3" Category="CodeSchema_GenericTypeUse" />
+    <Link Source="@22" Target="(@1 @4 @21 @61)" Category="Contains" />
+    <Link Source="@22" Target="@106" Category="Contains" />
+    <Link Source="@22" Target="@127" Category="Contains" />
+    <Link Source="@22" Target="@157" Category="Contains" />
+    <Link Source="@25" Target="(@1 @23 @24 Member=get_NickName)" Category="Contains" />
+    <Link Source="@25" Target="@118" Category="Contains" />
+    <Link Source="@25" Target="@40" Category="References">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@25" Target="@60" Category="Contains" />
+    <Link Source="@25" Target="@86" Category="Contains" />
+    <Link Source="@27" Target="(@1 @4 @26 @61)" Category="Contains" />
+    <Link Source="@27" Target="@105" Category="Contains" />
+    <Link Source="@27" Target="@128" Category="Contains" />
+    <Link Source="@27" Target="@158" Category="Contains" />
+    <Link Source="@27" Target="@170" Category="Contains" />
+    <Link Source="@27" Target="@31" Category="References">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@27" Target="@63" Category="Contains" />
+    <Link Source="@27" Target="@66" Category="Contains" />
+    <Link Source="@27" Target="@68" Category="Contains" />
+    <Link Source="@27" Target="@97" Category="Contains" />
+    <Link Source="@27" Target="@98" Category="Contains" />
+    <Link Source="@29" Target="@119" Category="Contains" />
+    <Link Source="@29" Target="@139" Category="Contains" />
+    <Link Source="@29" Target="@143" Category="Contains" />
+    <Link Source="@29" Target="@147" Category="Contains" />
+    <Link Source="@3" Target="(@1 @2 Type=(Name=IView GenericParameterCount=1) Member=get_Presenter)" Category="Contains" />
+    <Link Source="@31" Target="(@1 @4 @30 Member=(Name=BeginInvoke OverloadingParameters=[@92,@29,(@57 @58 Type=AsyncCallback),@92]))" Category="Contains" />
+    <Link Source="@31" Target="(@1 @4 @30 Member=(Name=EndInvoke OverloadingParameters=[(@57 @58 Type=IAsyncResult)]))" Category="Contains" />
+    <Link Source="@31" Target="@112" Category="Contains" />
+    <Link Source="@31" Target="@94" Category="Contains" />
+    <Link Source="@33" Target="(@1 @4 @32 @61)" Category="Contains" />
+    <Link Source="@33" Target="@100" Category="Contains" />
+    <Link Source="@33" Target="@102" Category="Contains" />
+    <Link Source="@33" Target="@103" Category="Contains" />
+    <Link Source="@33" Target="@104" Category="Contains" />
+    <Link Source="@33" Target="@107" Category="Contains" />
+    <Link Source="@33" Target="@108" Category="Contains" />
+    <Link Source="@33" Target="@109" Category="Contains" />
+    <Link Source="@33" Target="@129" Category="Contains" />
+    <Link Source="@33" Target="@133" Category="Contains" />
+    <Link Source="@33" Target="@144" Category="Contains" />
+    <Link Source="@33" Target="@149" Category="Contains" />
+    <Link Source="@33" Target="@151" Category="Contains" />
+    <Link Source="@33" Target="@153" Category="Contains" />
+    <Link Source="@33" Target="@159" Category="Contains" />
+    <Link Source="@33" Target="@16" Category="References">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@33" Target="@162" Category="Contains" />
+    <Link Source="@33" Target="@165" Category="Contains" />
+    <Link Source="@33" Target="@17" Category="Implements" />
+    <Link Source="@33" Target="@19" Category="References">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@33" Target="@20" Category="Implements" />
+    <Link Source="@33" Target="@29" Category="References">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@33" Target="@35" Category="Implements" />
+    <Link Source="@33" Target="@37" Category="Implements" />
+    <Link Source="@33" Target="@6" Category="Contains" />
+    <Link Source="@33" Target="@89" Category="Contains" />
+    <Link Source="@33" Target="@90" Category="Contains" />
+    <Link Source="@33" Target="@93" Category="Contains" />
+    <Link Source="@33" Target="@96" Category="Contains" />
+    <Link Source="@35" Target="(@1 @2 @34 Member=SendMessage)" Category="Contains" />
+    <Link Source="@35" Target="@150" Category="Contains" />
+    <Link Source="@35" Target="@152" Category="Contains" />
+    <Link Source="@35" Target="@154" Category="Contains" />
+    <Link Source="@35" Target="@17" Category="Implements" />
+    <Link Source="@37" Target="(@1 @2 @36 Member=CreateServer)" Category="Contains" />
+    <Link Source="@37" Target="@155" Category="Contains" />
+    <Link Source="@37" Target="@20" Category="Implements" />
+    <Link Source="@37" Target="@91" Category="Contains" />
+    <Link Source="@40" Target="(@1 @38 @39 Member=.cctor)" Category="Contains" />
+    <Link Source="@40" Target="@117" Category="Contains" />
+    <Link Source="@40" Target="@131" Category="Contains" />
+    <Link Source="@40" Target="@136" Category="Contains" />
+    <Link Source="@40" Target="@138" Category="Contains" />
+    <Link Source="@40" Target="@142" Category="Contains" />
+    <Link Source="@40" Target="@148" Category="Contains" />
+    <Link Source="@40" Target="@161" Category="Contains" />
+    <Link Source="@40" Target="@73" Category="Contains" />
+    <Link Source="@40" Target="@74" Category="Contains" />
+    <Link Source="@40" Target="@83" Category="Contains" />
+    <Link Source="@40" Target="@85" Category="Contains" />
+    <Link Source="@40" Target="@88" Category="Contains" />
+    <Link Source="@43" Target="@116" Category="Contains" />
+    <Link Source="@43" Target="@140" Category="Contains" />
+    <Link Source="@43" Target="@145" Category="Contains" />
+    <Link Source="@43" Target="@169" Category="Contains" />
+    <Link Source="@43" Target="@59" Category="Contains" />
+    <Link Source="@45" Target="@141" Category="Contains" />
+    <Link Source="@45" Target="@146" Category="Contains" />
+    <Link Source="@45" Target="@43" Category="References">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@45" Target="@76" Category="Contains" />
+    <Link Source="@47" Target="(@1 @41 @46 Member=(Name=BeginInvoke OverloadingParameters=[@92,@45,(@57 @58 Type=AsyncCallback),@92]))" Category="Contains" />
+    <Link Source="@47" Target="(@1 @41 @46 Member=(Name=EndInvoke OverloadingParameters=[(@57 @58 Type=IAsyncResult)]))" Category="Contains" />
+    <Link Source="@47" Target="@113" Category="Contains" />
+    <Link Source="@47" Target="@114" Category="Contains" />
+    <Link Source="@48" Target="@163" Category="Contains" />
+    <Link Source="@51" Target="@137" Category="Contains" />
+    <Link Source="@51" Target="@164" Category="Contains" />
+    <Link Source="@51" Target="@166" Category="Contains" />
+    <Link Source="@51" Target="@168" Category="Contains" />
+    <Link Source="@51" Target="@40" Category="References">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@51" Target="@47" Category="References">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@51" Target="@62" Category="Contains" />
+    <Link Source="@51" Target="@78" Category="Contains" />
+    <Link Source="@51" Target="@79" Category="Contains" />
+    <Link Source="@51" Target="@80" Category="Contains" />
+    <Link Source="@51" Target="@84" Category="Contains" />
+    <Link Source="@53" Target="(@1 @4 @52 @61)" Category="Contains" />
+    <Link Source="@53" Target="@101" Category="Contains" />
+    <Link Source="@53" Target="@130" Category="Contains" />
+    <Link Source="@53" Target="@160" Category="Contains" />
+    <Link Source="@53" Target="@31" Category="References">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@53" Target="@64" Category="Contains" />
+    <Link Source="@53" Target="@67" Category="Contains" />
+    <Link Source="@53" Target="@69" Category="Contains" />
+    <Link Source="@53" Target="@99" Category="Contains" />
+    <Link Source="@55" Target="(@1 @7 @54 @126)" Category="Contains" />
+    <Link Source="@55" Target="@10" Category="Contains" />
+    <Link Source="@55" Target="@11" Category="Contains" />
+    <Link Source="@55" Target="@110" Category="Contains" />
+    <Link Source="@55" Target="@12" Category="Contains" />
+    <Link Source="@55" Target="@120" Category="Contains" />
+    <Link Source="@55" Target="@122" Category="Contains" />
+    <Link Source="@55" Target="@123" Category="Contains" />
+    <Link Source="@55" Target="@124" Category="Contains" />
+    <Link Source="@55" Target="@125" Category="Contains" />
+    <Link Source="@55" Target="@13" Category="Contains" />
+    <Link Source="@55" Target="@72" Category="Contains" />
+    <Link Source="@55" Target="@9" Category="Contains" />
+    <Link Source="@6" Target="(@1 @4 @5 Member=(Name=BeginInvoke OverloadingParameters=[@81,(@57 @58 Type=AsyncCallback),@92]))" Category="Contains" />
+    <Link Source="@6" Target="(@1 @4 @5 Member=(Name=EndInvoke OverloadingParameters=[(@57 @58 Type=IAsyncResult)]))" Category="Contains" />
+    <Link Source="@6" Target="(@1 @4 @5 Member=(Name=Invoke @82))" Category="Contains" />
+    <Link Source="@6" Target="@111" Category="Contains" />
+    <Link Source="@60" Target="@110" Category="CodeSchema_Calls" />
+    <Link Source="@60" Target="@123" Category="CodeSchema_Calls" />
+    <Link Source="@60" Target="@125" Category="CodeSchema_Calls" />
+    <Link Source="@60" Target="@136" Category="CodeSchema_Calls" />
+    <Link Source="@60" Target="@138" Category="CodeSchema_Calls" />
+    <Link Source="@60" Target="@161" Category="CodeSchema_Calls" />
+    <Link Source="@60" Target="@74" Category="CodeSchema_Calls" />
+    <Link Source="@62" Target="@110" Category="CodeSchema_Calls" />
+    <Link Source="@62" Target="@122" Category="CodeSchema_Calls" />
+    <Link Source="@62" Target="@13" Category="References" />
+    <Link Source="@62" Target="@138" Category="CodeSchema_Calls" />
+    <Link Source="@62" Target="@148" Category="CodeSchema_Calls" />
+    <Link Source="@62" Target="@161" Category="CodeSchema_Calls" />
+    <Link Source="@63" Target="@31" Category="References" />
+    <Link Source="@63" Target="@94" Category="CodeSchema_Calls" />
+    <Link Source="@64" Target="@31" Category="References" />
+    <Link Source="@64" Target="@94" Category="CodeSchema_Calls" />
+    <Link Source="@66" Target="@31" Category="References" />
+    <Link Source="@67" Target="@31" Category="References" />
+    <Link Source="@68" Target="@31" Category="References" />
+    <Link Source="@69" Target="@31" Category="References" />
+    <Link Source="@73" Target="@110" Category="CodeSchema_Calls" />
+    <Link Source="@73" Target="@124" Category="CodeSchema_Calls" />
+    <Link Source="@73" Target="@13" Category="References">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@74" Target="@110" Category="CodeSchema_Calls" />
+    <Link Source="@74" Target="@161" Category="CodeSchema_Calls" />
+    <Link Source="@77" Target="@141" Category="CodeSchema_Calls" />
+    <Link Source="@77" Target="@146" Category="CodeSchema_Calls" />
+    <Link Source="@78" Target="@114" Category="CodeSchema_Calls" />
+    <Link Source="@78" Target="@47" Category="References" />
+    <Link Source="@79" Target="@47" Category="References" />
+    <Link Source="@80" Target="@47" Category="References" />
+    <Link Source="@83" Target="@88" Category="CodeSchema_Calls" />
+    <Link Source="@84" Target="@120" Category="CodeSchema_Calls" />
+    <Link Source="@84" Target="@142" Category="CodeSchema_Calls" />
+    <Link Source="@84" Target="@74" Category="CodeSchema_Calls" />
+    <Link Source="@84" Target="@83" Category="CodeSchema_Calls" />
+    <Link Source="@85" Target="@117" Category="CodeSchema_Calls" />
+    <Link Source="@86" Target="@116" Category="CodeSchema_Calls" />
+    <Link Source="@86" Target="@169" Category="CodeSchema_Calls" />
+    <Link Source="@86" Target="@43" Category="References" />
+    <Link Source="@86" Target="@60" Category="CodeSchema_Calls" />
+    <Link Source="@87" Target="@86" Category="CodeSchema_Calls" />
+    <Link Source="@88" Target="@85" Category="CodeSchema_Calls" />
+    <Link Source="@89" Target="@111" Category="CodeSchema_Calls" />
+    <Link Source="@89" Target="@6" Category="References">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@89" Target="@89" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@9" Target="@9" Category="References" />
+    <Link Source="@90" Target="@89" Category="CodeSchema_Calls" />
+    <Link Source="@96" Target="@127" Category="CodeSchema_Calls" />
+    <Link Source="@96" Target="@22" Category="References" />
+    <Link Source="@97" Target="@119" Category="CodeSchema_Calls" />
+    <Link Source="@97" Target="@170" Category="CodeSchema_Calls" />
+    <Link Source="@97" Target="@63" Category="CodeSchema_Calls" />
+    <Link Source="_standardGraphGenericsGroup" Target="@17" Category="Contains" />
+    <Link Source="_standardGraphGenericsGroup" Target="@20" Category="Contains" />
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_Block" Label="Блок" BasedOn="CodeSchema_Statement" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" IsProviderRoot="False" NavigationActionLabel="Блоки" />
+    <Category Id="CodeSchema_Calls" Label="Вызовы" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Вызывается" OutgoingActionLabel="Вызовы" />
+    <Category Id="CodeSchema_Class" Label="Класс" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" IsProviderRoot="False" NavigationActionLabel="Классы" />
+    <Category Id="CodeSchema_Delegate" Label="Делегат" BasedOn="CodeSchema_Class" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Delegate" IsProviderRoot="False" NavigationActionLabel="Делегаты" />
+    <Category Id="CodeSchema_Enum" Label="Перечисление" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Enum" IsProviderRoot="False" NavigationActionLabel="Перечисления" />
+    <Category Id="CodeSchema_FunctionPointer" Label="Указатель функции" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Указатели функций" OutgoingActionLabel="Указатели функций" />
+    <Category Id="CodeSchema_GenericParameterLink" Label="Универсальный параметр" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Универсальные параметры" OutgoingActionLabel="Универсальные параметры" />
+    <Category Id="CodeSchema_GenericTypeUse" Label="Использование универсального типа" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Определение универсального типа" OutgoingActionLabel="Использования универсальных типов" />
+    <Category Id="CodeSchema_Interface" Label="Интерфейс" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Interface" IsProviderRoot="False" NavigationActionLabel="Интерфейсы" />
+    <Category Id="CodeSchema_Member" Label="Член" BasedOn="CodeSchema_Block" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" IsProviderRoot="False" NavigationActionLabel="Члены" />
+    <Category Id="CodeSchema_Method" Label="Метод" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Link:Forward:CodeSchema_Calls" Icon="CodeSchema_Method" IsProviderRoot="False" NavigationActionLabel="Методы" />
+    <Category Id="CodeSchema_ReturnTypeLink" Label="Вернуть" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Возвращаемые типы" OutgoingActionLabel="Возвращаемые типы" />
+    <Category Id="CodeSchema_Statement" Label="Оператор" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" IsProviderRoot="False" NavigationActionLabel="Оператор" />
+    <Category Id="CodeSchema_Struct" Label="Структура" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Struct" IsProviderRoot="False" NavigationActionLabel="Структуры" />
+    <Category Id="CodeSchema_Type" Label="Тип" BasedOn="CodeSchema_Block" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" IsProviderRoot="False" NavigationActionLabel="Типы" />
+    <Category Id="Contains" Label="Содержит" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Содержится в" IsContainment="True" OutgoingActionLabel="Содержит" />
+    <Category Id="Generics" Label="Универсальные" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Универсальные" />
+    <Category Id="Implements" Label="Реализации" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Реализуется" OutgoingActionLabel="Реализации" />
+    <Category Id="References" Label="Ссылки" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Ссылается" OutgoingActionLabel="Ссылки" />
+  </Categories>
+  <Properties>
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsConstructor" Label="IsConstructor" Description="IsConstructor" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsGenericInstance" Label="IsGenericInstance" Description="IsGenericInstance" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsInternal" Label="IsInternal" Description="IsInternal" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPrivate" Label="IsPrivate" Description="IsPrivate" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsProtected" Label="IsProtected" Description="IsProtected" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPublic" Label="IsPublic" Description="IsPublic" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsSpecialName" Label="IsSpecialName" Description="IsSpecialName" DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="Group" Label="Группа" Description="Отображать узел как группу" DataType="Microsoft.VisualStudio.Progression.GraphModel.GroupStyle" />
+    <Property Id="Icon" Label="Значок" Description="Значок" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="Label" Label="Метка" Description="Отображаемая метка помечаемого объекта" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="ArrayRank" Label="Ранг массива" ValueType="System.String" />
+    <Name Id="Assembly" Label="Сборка" ValueType="Uri" />
+    <Name Id="GenericArguments" Label="Универсальные аргументы" ValueType="Microsoft.VisualStudio.Progression.GraphModel.QualifiedIdentifierArrayCollection" />
+    <Name Id="GenericParameterCount" Label="Число универсальных параметров" ValueType="System.String" />
+    <Name Id="Member" Label="Член" ValueType="System.Object" />
+    <Name Id="Name" Label="Имя" ValueType="System.String" />
+    <Name Id="Namespace" Label="Пространство имен" ValueType="System.String" />
+    <Name Id="OverloadingParameters" Label="Параметр" ValueType="Microsoft.VisualStudio.Progression.GraphModel.QualifiedIdentifierArrayCollection" Formatter="NameValueNoEscape" />
+    <Name Id="ParentType" Label="Родительский тип" ValueType="System.Object" />
+    <Name Id="Type" Label="Тип" ValueType="System.Object" />
+  </QualifiedNames>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Сборка" ValueLabel="Имеет категорию">
+      <Condition Expression="HasCategory('CodeSchema_Assembly')" />
+      <Setter Property="Background" Value="#1C3068" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Пространство имен" ValueLabel="Имеет категорию">
+      <Condition Expression="HasCategory('CodeSchema_Namespace')" />
+      <Setter Property="Background" Value="#4A65A0" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Тип" ValueLabel="Имеет категорию">
+      <Condition Expression="HasCategory('CodeSchema_Type')" />
+      <Setter Property="Background" Value="#D3DCEF" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Метод" ValueLabel="Имеет категорию">
+      <Condition Expression="HasCategory('CodeSchema_Method')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Универсальные" ValueLabel="Имеет категорию">
+      <Condition Expression="HasCategory('Generics')" />
+      <Setter Property="Background" Value="#FFA080A0" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Внешние" ValueLabel="Имеет категорию">
+      <Condition Expression="HasCategory('Externals')" />
+      <Setter Property="Background" Value="#FFA08080" />
+    </Style>
+  </Styles>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=$(bc964dfb-264f-4a08-ab6a-e7701cc5945d.OutputPathUri)" />
+    <Alias n="2" Id="Namespace=MailChat.View" />
+    <Alias n="3" Id="(@1 @2 Type=(Name=IView GenericParameterCount=1))" />
+    <Alias n="4" Id="Namespace=MailChat" />
+    <Alias n="5" Id="Type=(Name=SetTextCallback ParentType=Form1)" />
+    <Alias n="6" Id="(@1 @4 @5)" />
+    <Alias n="7" Id="Namespace=MailChat.WinAPI" />
+    <Alias n="8" Id="ParentType=WinFunctions" />
+    <Alias n="9" Id="(@1 @7 Type=(Name=FileAttributes @8))" />
+    <Alias n="10" Id="(@1 @7 Type=(Name=FileCreationDisposition @8))" />
+    <Alias n="11" Id="(@1 @7 Type=(Name=FileDesiredAccess @8))" />
+    <Alias n="12" Id="(@1 @7 Type=(Name=FileShareMode @8))" />
+    <Alias n="13" Id="(@1 @7 Type=(Name=MailslotInfo @8))" />
+    <Alias n="14" Id="Namespace=MailChat.Presenter" />
+    <Alias n="15" Id="Type=ClientPresenter" />
+    <Alias n="16" Id="(@1 @14 @15)" />
+    <Alias n="17" Id="(@1 @2 Type=(Name=IView GenericParameterCount=1 GenericArguments=[@16]))" />
+    <Alias n="18" Id="Type=ServerPresenter" />
+    <Alias n="19" Id="(@1 @14 @18)" />
+    <Alias n="20" Id="(@1 @2 Type=(Name=IView GenericParameterCount=1 GenericArguments=[@19]))" />
+    <Alias n="21" Id="Type=AboutDialog" />
+    <Alias n="22" Id="(@1 @4 @21)" />
+    <Alias n="23" Id="Namespace=MailChat.Client" />
+    <Alias n="24" Id="Type=Client" />
+    <Alias n="25" Id="(@1 @23 @24)" />
+    <Alias n="26" Id="Type=ClientSettings" />
+    <Alias n="27" Id="(@1 @4 @26)" />
+    <Alias n="28" Id="Type=ConnectionEventArgs" />
+    <Alias n="29" Id="(@1 @4 @28)" />
+    <Alias n="30" Id="Type=ConnectionEventHandler" />
+    <Alias n="31" Id="(@1 @4 @30)" />
+    <Alias n="32" Id="Type=Form1" />
+    <Alias n="33" Id="(@1 @4 @32)" />
+    <Alias n="34" Id="Type=IClientView" />
+    <Alias n="35" Id="(@1 @2 @34)" />
+    <Alias n="36" Id="Type=IServerView" />
+    <Alias n="37" Id="(@1 @2 @36)" />
+    <Alias n="38" Id="Namespace=MailChat.Mailslots" />
+    <Alias n="39" Id="Type=Mailslot" />
+    <Alias n="40" Id="(@1 @38 @39)" />
+    <Alias n="41" Id="Namespace=MailChat.Messages" />
+    <Alias n="42" Id="Type=Message" />
+    <Alias n="43" Id="(@1 @41 @42)" />
+    <Alias n="44" Id="Type=MessageEventArgs" />
+    <Alias n="45" Id="(@1 @41 @44)" />
+    <Alias n="46" Id="Type=MessageEventHandler" />
+    <Alias n="47" Id="(@1 @41 @46)" />
+    <Alias n="48" Id="(@1 @4 Type=Program)" />
+    <Alias n="49" Id="Namespace=MailChat.Server" />
+    <Alias n="50" Id="Type=Server" />
+    <Alias n="51" Id="(@1 @49 @50)" />
+    <Alias n="52" Id="Type=ServerSettings" />
+    <Alias n="53" Id="(@1 @4 @52)" />
+    <Alias n="54" Id="Type=WinFunctions" />
+    <Alias n="55" Id="(@1 @7 @54)" />
+    <Alias n="56" Id="Name=.ctor" />
+    <Alias n="57" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.0/Profile/Client/mscorlib.dll" />
+    <Alias n="58" Id="Namespace=System" />
+    <Alias n="59" Id="(@1 @41 @42 Member=(@56 OverloadingParameters=[(@57 @58 Type=(Name=Byte ArrayRank=1 ParentType=Byte))]))" />
+    <Alias n="60" Id="(@1 @23 @24 Member=(Name=Send OverloadingParameters=[(@57 @58 Type=(Name=Byte ArrayRank=1 ParentType=Byte))]))" />
+    <Alias n="61" Id="Member=(Name=Dispose OverloadingParameters=[(@57 @58 Type=Boolean)])" />
+    <Alias n="62" Id="(@1 @49 @50 Member=(Name=Read OverloadingParameters=[(@57 @58 Type=&quot;Byte[]&amp;&quot;)]))" />
+    <Alias n="63" Id="(@1 @4 @26 Member=(Name=OnConnect OverloadingParameters=[@29]))" />
+    <Alias n="64" Id="(@1 @4 @52 Member=(Name=OnCreate OverloadingParameters=[@29]))" />
+    <Alias n="65" Id="OverloadingParameters=[@31]" />
+    <Alias n="66" Id="(@1 @4 @26 Member=(Name=add_Connect @65))" />
+    <Alias n="67" Id="(@1 @4 @52 Member=(Name=add_Create @65))" />
+    <Alias n="68" Id="(@1 @4 @26 Member=(Name=remove_Connect @65))" />
+    <Alias n="69" Id="(@1 @4 @52 Member=(Name=remove_Create @65))" />
+    <Alias n="70" Id="(@1 @14 @15 Member=(@56 OverloadingParameters=[@35]))" />
+    <Alias n="71" Id="(@57 @58 Type=IntPtr)" />
+    <Alias n="72" Id="(@1 @7 @54 Member=(Name=CloseHandle OverloadingParameters=[@71]))" />
+    <Alias n="73" Id="(@1 @38 @39 Member=(Name=GetMailslotInfo OverloadingParameters=[@71]))" />
+    <Alias n="74" Id="(@1 @38 @39 Member=(Name=set_Handle OverloadingParameters=[@71]))" />
+    <Alias n="75" Id="(@1 @14 @18 Member=(@56 OverloadingParameters=[@37]))" />
+    <Alias n="76" Id="(@1 @41 @44 Member=(@56 OverloadingParameters=[@43]))" />
+    <Alias n="77" Id="(@1 @14 @18 Member=(Name=FormatMessage OverloadingParameters=[@45]))" />
+    <Alias n="78" Id="(@1 @49 @50 Member=(Name=OnMessageReceived OverloadingParameters=[@45]))" />
+    <Alias n="79" Id="(@1 @49 @50 Member=(Name=add_MessageReceived OverloadingParameters=[@47]))" />
+    <Alias n="80" Id="(@1 @49 @50 Member=(Name=remove_MessageReceived OverloadingParameters=[@47]))" />
+    <Alias n="81" Id="(@57 @58 Type=String)" />
+    <Alias n="82" Id="OverloadingParameters=[@81]" />
+    <Alias n="83" Id="(@1 @38 @39 Member=(@56 @82))" />
+    <Alias n="84" Id="(@1 @49 @50 Member=(@56 @82))" />
+    <Alias n="85" Id="(@1 @38 @39 Member=(Name=GetLocalMailslotPath @82))" />
+    <Alias n="86" Id="(@1 @23 @24 Member=(Name=Send @82))" />
+    <Alias n="87" Id="(@1 @14 @15 Member=(Name=SendMessage @82))" />
+    <Alias n="88" Id="(@1 @38 @39 Member=(Name=set_Name @82))" />
+    <Alias n="89" Id="(@1 @4 @32 Member=(Name=SetText @82))" />
+    <Alias n="90" Id="(@1 @4 @32 Member=(Name=ShowMessage @82))" />
+    <Alias n="91" Id="(@1 @2 @36 Member=(Name=ShowMessage @82))" />
+    <Alias n="92" Id="(@57 @58 Type=Object)" />
+    <Alias n="93" Id="(@1 @4 @32 Member=(Name=GetConnectionSettings OverloadingParameters=[@92,@29]))" />
+    <Alias n="94" Id="(@1 @4 @30 Member=(Name=Invoke OverloadingParameters=[@92,@29]))" />
+    <Alias n="95" Id="OverloadingParameters=[@92,(@57 @58 Type=EventArgs)]" />
+    <Alias n="96" Id="(@1 @4 @32 Member=(Name=aboutToolStripMenuItem_Click @95))" />
+    <Alias n="97" Id="(@1 @4 @26 Member=(Name=button1_Click @95))" />
+    <Alias n="98" Id="(@1 @4 @26 Member=(Name=button2_Click @95))" />
+    <Alias n="99" Id="(@1 @4 @52 Member=(Name=cancelButton_Click @95))" />
+    <Alias n="100" Id="(@1 @4 @32 Member=(Name=connectToolStripMenuItem_Click @95))" />
+    <Alias n="101" Id="(@1 @4 @52 Member=(Name=createButton_Click @95))" />
+    <Alias n="102" Id="(@1 @4 @32 Member=(Name=createToolStripMenuItem_Click @95))" />
+    <Alias n="103" Id="(@1 @4 @32 Member=(Name=disconnectToolStripMenuItem_Click @95))" />
+    <Alias n="104" Id="(@1 @4 @32 Member=(Name=exitToolStripMenuItem_Click @95))" />
+    <Alias n="105" Id="(@1 @4 @26 Member=(Name=helpButton_Click @95))" />
+    <Alias n="106" Id="(@1 @4 @21 Member=(Name=okButton_Click @95))" />
+    <Alias n="107" Id="(@1 @4 @32 Member=(Name=sendButton_Click @95))" />
+    <Alias n="108" Id="(@1 @4 @32 Member=(Name=shutdownToolStripMenuItem_Click @95))" />
+    <Alias n="109" Id="(@1 @4 @32 Member=(Name=timer1_Tick @95))" />
+    <Alias n="110" Id="(@1 @7 @54 Member=(Name=ThrowException OverloadingParameters=[@81,(@57 @58 Type=Exception)]))" />
+    <Alias n="111" Id="(@1 @4 @5 Member=(@56 OverloadingParameters=[@92,@71]))" />
+    <Alias n="112" Id="(@1 @4 @30 Member=(@56 OverloadingParameters=[@92,@71]))" />
+    <Alias n="113" Id="(@1 @41 @46 Member=(@56 OverloadingParameters=[@92,@71]))" />
+    <Alias n="114" Id="(@1 @41 @46 Member=(Name=Invoke OverloadingParameters=[@92,@45]))" />
+    <Alias n="115" Id="(@1 @14 @18 Member=(Name=ShowMessage OverloadingParameters=[@92,@45]))" />
+    <Alias n="116" Id="(@1 @41 @42 Member=(@56 OverloadingParameters=[@81,@81]))" />
+    <Alias n="117" Id="(@1 @38 @39 Member=(Name=GetFullMailslotPath OverloadingParameters=[@81,@81]))" />
+    <Alias n="118" Id="(@1 @23 @24 Member=(@56 OverloadingParameters=[@81,@81,@81]))" />
+    <Alias n="119" Id="(@1 @4 @28 Member=(@56 OverloadingParameters=[@81,@81,@81]))" />
+    <Alias n="120" Id="(@1 @7 @54 Member=(Name=CreateMailslot OverloadingParameters=[@81,(@57 @58 Type=UInt32),(@57 @58 Type=UInt32),@71]))" />
+    <Alias n="121" Id="(@57 @58 Type=UInt32&amp;)" />
+    <Alias n="122" Id="(@1 @7 @54 Member=(Name=ReadFile OverloadingParameters=[@71,(@57 @58 Type=(Name=Byte ArrayRank=1 ParentType=Byte)),(@57 @58 Type=UInt32),@121,@71]))" />
+    <Alias n="123" Id="(@1 @7 @54 Member=(Name=WriteFile OverloadingParameters=[@71,(@57 @58 Type=(Name=Byte ArrayRank=1 ParentType=Byte)),(@57 @58 Type=UInt32),@121,@71]))" />
+    <Alias n="124" Id="(@1 @7 @54 Member=(Name=GetMailslotInfo OverloadingParameters=[@71,@121,@121,@121,@121]))" />
+    <Alias n="125" Id="(@1 @7 @54 Member=(Name=CreateFile OverloadingParameters=[@81,@11,@12,@71,@10,@9,@71]))" />
+    <Alias n="126" Id="Member=.ctor" />
+    <Alias n="127" Id="(@1 @4 @21 @126)" />
+    <Alias n="128" Id="(@1 @4 @26 @126)" />
+    <Alias n="129" Id="(@1 @4 @32 @126)" />
+    <Alias n="130" Id="(@1 @4 @52 @126)" />
+    <Alias n="131" Id="(@1 @38 @39 Member=CloseMailslot)" />
+    <Alias n="132" Id="(@1 @14 @15 Member=Connect)" />
+    <Alias n="133" Id="(@1 @4 @32 Member=CreateServer)" />
+    <Alias n="134" Id="(@1 @14 @18 Member=CreateServer)" />
+    <Alias n="135" Id="(@1 @14 @15 Member=Disconnect)" />
+    <Alias n="136" Id="(@1 @38 @39 Member=Dispose)" />
+    <Alias n="137" Id="(@1 @49 @50 Member=Dispose)" />
+    <Alias n="138" Id="(@1 @38 @39 Member=get_Handle)" />
+    <Alias n="139" Id="(@1 @4 @28 Member=get_MailslotName)" />
+    <Alias n="140" Id="(@1 @41 @42 Member=get_MessageText)" />
+    <Alias n="141" Id="(@1 @41 @44 Member=get_MessageText)" />
+    <Alias n="142" Id="(@1 @38 @39 Member=get_Name)" />
+    <Alias n="143" Id="(@1 @4 @28 Member=get_Nickname)" />
+    <Alias n="144" Id="(@1 @4 @32 Member=get_Presenter)" />
+    <Alias n="145" Id="(@1 @41 @42 Member=get_Sender)" />
+    <Alias n="146" Id="(@1 @41 @44 Member=get_Sender)" />
+    <Alias n="147" Id="(@1 @4 @28 Member=get_ServerName)" />
+    <Alias n="148" Id="(@1 @38 @39 Member=GetMailslotInfo)" />
+    <Alias n="149" Id="(@1 @4 @32 Member=GetMailslotName)" />
+    <Alias n="150" Id="(@1 @2 @34 Member=GetMailslotName)" />
+    <Alias n="151" Id="(@1 @4 @32 Member=GetNickname)" />
+    <Alias n="152" Id="(@1 @2 @34 Member=GetNickname)" />
+    <Alias n="153" Id="(@1 @4 @32 Member=GetServerName)" />
+    <Alias n="154" Id="(@1 @2 @34 Member=GetServerName)" />
+    <Alias n="155" Id="(@1 @2 @36 Member=GetServerName)" />
+    <Alias n="156" Id="Member=InitializeComponent" />
+    <Alias n="157" Id="(@1 @4 @21 @156)" />
+    <Alias n="158" Id="(@1 @4 @26 @156)" />
+    <Alias n="159" Id="(@1 @4 @32 @156)" />
+    <Alias n="160" Id="(@1 @4 @52 @156)" />
+    <Alias n="161" Id="(@1 @38 @39 Member=IsValid)" />
+    <Alias n="162" Id="(@1 @4 @32 Member=MailChat.View.IView&lt;MailChat.Presenter.ClientPresenter&gt;.get_Presenter)" />
+    <Alias n="163" Id="(@1 @4 Type=Program Member=Main)" />
+    <Alias n="164" Id="(@1 @49 @50 Member=Read)" />
+    <Alias n="165" Id="(@1 @4 @32 Member=SendMessage)" />
+    <Alias n="166" Id="(@1 @49 @50 Member=Shutdown)" />
+    <Alias n="167" Id="(@1 @14 @18 Member=ShutdownServer)" />
+    <Alias n="168" Id="(@1 @49 @50 Member=Start)" />
+    <Alias n="169" Id="(@1 @41 @42 Member=ToByte)" />
+    <Alias n="170" Id="(@1 @4 @26 Member=ValidateSettings)" />
+  </IdentifierAliases>
+  <Paths>
+    <Path Id="bc964dfb-264f-4a08-ab6a-e7701cc5945d.OutputPathUri" Value="file:///L:/WinAPI/MailChat/MailChat/bin/Release/MailChat.exe" />
+    <Path Id="FxReferenceAssembliesUri" Value="file:///C:/Program Files/Reference Assemblies/Microsoft/Framework" />
+  </Paths>
+</DirectedGraph>
